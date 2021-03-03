@@ -2,6 +2,11 @@ package com.example.demo.model;
 
 public class Persona {
 
+	
+	public Persona() {
+		
+	}
+	
 	public Persona(String nombre, int telefono) {
 		super();
 		this.nombre = nombre;

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Insert title here</title>
+</head>
+<body><h1>Formulario</h1>
+
+<!-- <form action="#" th:action="@{/ejemploPost/addPersona}" th:object="${persona}"> -->
+<form action="#" th:action="@{/ejemploPost/addPersona}" th:object="${persona}" method="post">
+
+	<p><input type="text" placeholder="Nombre" th:field="*{nombre}"/></p>
+	<p><input type="number" placeholder="Telefono" th:field="*{telefono}"/></p>
+	<p><input type="submit" value="enviar"/></p>
+
+</form>
+	
+</body>
+</html>
